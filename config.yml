@@ -157,7 +157,7 @@ ChatMessage:
     #The place holder  %money%  will be replaced by the amount of money the player will receive.
     offlineMoneyReceived: '&2&l[MPDB] &eYou received&6 %money% &emoney from your shop sales.'
     syncInProgress: '&4&l[MPDB] &cData sync in progress! Please wait...'
-    reloadCmdBlocked: '&4&l[MPDB] &cServer reload is not good for plugins! For safety this command is blocked.'
+    reloadCmdWarning: '&4&l[MPDB] &cThis plugin does not recommend server reloads. If you have issues after running this command stop using it.'
     #Help menu with multi line support.
     helpMenu:
         header:
