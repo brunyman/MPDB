@@ -116,6 +116,14 @@ General:
         #Players need to be online some time in order to update their location.
         #In seconds. Set to 0 to disable. (Default 0 seconds)
         onlineTimeToSaveLocation: 0
+        
+        
+#Commands that will run for players that join for the first time. Commands will be executed as console after sync is complete.
+#Supports multiple commands. The tag <PlayerName> will be replaced by the player name that joined for the first time.
+#To disable this feature just remove all commands.
+New-Players-Cmd:
+- 'tell <PlayerName> Cmd 1 sample  - you should remove this from the MPDB config'
+- 'tell <PlayerName> Cmd 2 sample  - you should remove this from the MPDB config'
     
     
 #This feature allows you to delete folders or files when the server shuts down or restarts.
