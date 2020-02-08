@@ -1,5 +1,5 @@
 # default config.yml for MysqlPlayerDataBridge
-# config version 3.27.3
+# config version 3.31.2
 
 #MySQL Database details
 database:
@@ -85,7 +85,7 @@ General:
         #Enable support for premium plugin Shop: https://www.spigotmc.org/resources/shop-a-simple-intuitive-shop-plugin.9628/
         #Important! Only works for virtual currency. The Shop plugin needs players data files to work do not remove the world/playerdata folder.
         Shop-Support: false
-        #Enable support for plugin AuctionHouse: https://www.spigotmc.org/resources/auction-house-1-7-1-11.6050/
+        #Enable support for plugin AuctionHouse: https://www.spigotmc.org/resources/auctionhouse.61836/
         AuctionHouse-Support: false
         #Enable support for plugin CrazyAuctions: https://www.spigotmc.org/resources/crazy-auctions.25219/
         CrazyAuctions-Support: false
@@ -93,6 +93,8 @@ General:
         ShopChest-Support: false
         #Enable support for plugin ShopChestPlayerShopGUI+: https://www.spigotmc.org/resources/playershopgui.37707/
         PlayerShopGUI-Support: false
+        #Enable support for plugin CMI: https://www.spigotmc.org/resources/cmi-270-commands-insane-kits-portals-essentials-economy-mysql-sqlite-much-more.3742/
+        CMI-Support: false
         #Enable support for Essentials Economy commands for offline players.
         #Will handle eco commands: /eco take|give|set|reset  for offline players that are in the database.
         EssentialsEconomyCommands-Support: false
@@ -116,7 +118,6 @@ General:
         #Players need to be online some time in order to update their location.
         #In seconds. Set to 0 to disable. (Default 0 seconds)
         onlineTimeToSaveLocation: 0
-        
         
 #Commands that will run for players that join for the first time. Commands will be executed as console after sync is complete.
 #Supports multiple commands. The tag <PlayerName> will be replaced by the player name that joined for the first time.
