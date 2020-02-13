@@ -1,5 +1,5 @@
 # default config.yml for MysqlPlayerDataBridge
-# config version 3.31.2
+# config version 3.31.5
 
 #MySQL Database details
 database:
@@ -94,7 +94,13 @@ General:
         #Enable support for plugin ShopChestPlayerShopGUI+: https://www.spigotmc.org/resources/playershopgui.37707/
         PlayerShopGUI-Support: false
         #Enable support for plugin CMI: https://www.spigotmc.org/resources/cmi-270-commands-insane-kits-portals-essentials-economy-mysql-sqlite-much-more.3742/
+        # !!IMPORTANT!!! If you use CMI economy and enable support for CMI disable all other shop plugins support!
+        # CMI has it's own events and integration with other shop plugins is no longer needed as changes will be taken from CMI directly.
         CMI-Support: false
+        #Enable support for plugin zAuctionHouse: https://www.spigotmc.org/resources/zauctionhouse-lite-1-7-1-15-auction-house-plugin.63926/
+        zAuctionHouse-Support: false
+        #Enable support for Essentials Economy commands for offline players.
+        #Will handle eco commands: /eco take|give|set|reset  for offline players that are in the database.
         #Enable support for Essentials Economy commands for offline players.
         #Will handle eco commands: /eco take|give|set|reset  for offline players that are in the database.
         EssentialsEconomyCommands-Support: false
