@@ -152,6 +152,8 @@ Debug:
     EconomySync: false
     #Inventory sync debug messages.
     InventorySync: false
+    #Health sync debug messages.
+    HealthSync: false
      
      
 #Chat messages, supports color and format codes. To disable a chat message set it to ''  Example: loginSyncConfirmation: ''
